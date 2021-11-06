@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main {
+    margin: 10% 20% 0% 20%;
+    cursor: default;
+}
+.card {
+    text-align: center;
+    max-height: 500px;
+    width: 300px;
+    min-width: 300px;
+    box-shadow: 5px 5px 5px rgba(104, 104, 104, 0.404);
+    border-radius: 15%;
+}
+img {
+    margin-bottom: 10%;
+    width: 100px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px rgba(104, 104, 104, 0.404);
+}
+small {
+    margin: 10px;
+    color: black;
+    
+}
+span {
+    vertical-align: text-top;
+    font-size: 10px;
+    
+}
+#user-name , #password{
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+}
+.btn{
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    
+    background-color: #f15957;
+}
+.btn:hover {
+    background-color: rgba(0, 104, 35, 0.562);
+}
+.user-name-msg , .password-msg {
+    color: red;
+   
+}
+input , button {
+    margin-top: 3%;
+}
